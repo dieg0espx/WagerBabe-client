@@ -14,7 +14,18 @@ const eslintConfig = [
   {
     ignores: [
       "src/migration/**/*",
-      "src/migration/external-components/**/*"
+      "src/migration/external-components/**/*",
+      // Build directories
+      ".next/",
+      "out/",
+      "dist/",
+      "build/",
+      // Dependencies
+      "node_modules/",
+      // Environment files
+      ".env*",
+      // Generated files
+      "*.d.ts"
     ]
   }
 ];

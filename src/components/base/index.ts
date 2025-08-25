@@ -109,7 +109,7 @@ export type { StatusBadgeProps } from './status-badge'
 export type { LiveIndicatorProps } from './live-indicator'
 export type { OddsDisplayProps } from './odds-display'
 export type { BettingAlertProps } from './betting-alert'
-export type { BettingToastProps } from './betting-toast'
+export type { BettingToastOptions, BettingToastType } from './betting-toast'
 
 // Sports component types
 export type { SportsGameCardProps, SportsTeamDisplayProps } from './sports-game-card'
