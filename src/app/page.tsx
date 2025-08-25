@@ -1,6 +1,7 @@
 "use client"
 
-import * as React, { Suspense } from "react"
+import * as React from "react"
+import { Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import { UnifiedLayout } from "@/components/layout"
 import { SportsBettingContent } from "@/components/composite/sports"
