@@ -1,0 +1,14 @@
+# Build directories
+.next/
+out/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env*
+
+# Generated files
+*.d.ts
